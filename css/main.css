@@ -1,0 +1,456 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*This can be used to hide elements in HTML*/
+.hidden
+{
+	display: none;
+}
+
+body
+{
+	background-image: url('../images/pw_maze_white.png');
+}
+
+
+@font-face {
+    font-family: 'caviardreams';
+    src: url('../fonts/caviardreams-webfont.woff2') format('woff2'),
+		url('../fonts/caviardreams-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+	font-family: 'greatvibes-regular';
+	src: url('../fonts/greatvibes-regular-webfont.woff2') format('woff2'),
+		url('../fonts/greatvibes-regular-webfont.woff2') format('woff');
+}
+
+/*body
+{
+	background-image: url('../images/backgroundimage.jpg');
+}*/
+
+p
+{
+	font-family: 'caviardreams', Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 15px;
+}
+/*HEADER*/
+
+#header
+{
+	border-bottom: solid 1px #2D4668;
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
+#logo{
+	margin-left: 15px;
+}
+
+#phone p
+{
+	font-size: 1em;
+	font-weight: 900;
+	text-align: right;
+}
+
+#mainNav
+{
+	margin-top: 45px;
+	text-align: center;
+}
+
+#mainNav ul li
+{
+	display: inline;
+}
+
+#mainNav ul li a
+{
+	text-decoration: none;
+	font-family: 'caviardreams', Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 1em;
+	font-weight: 300;
+	margin-top: 10px;
+	margin-left: 12px;
+	color: #000;
+}
+
+#mainNav ul li a:hover
+{
+	color: #3D3BB0;
+	margin-top: 8px;
+}
+
+
+/*BODY*/
+ #promoImg{
+	 margin-bottom: 10px;
+	 text-align: center;
+ }
+
+#slogan
+{
+	background-color: #777989;
+	box-shadow: 0px 2px 3px #2D4668;
+	font-size: 1.7em;
+	text-align: center;
+	color: #EAAF94;
+	padding: 2px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	animation-name: colorChange;
+	animation-duration: 10s;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+	padding: 10px;
+
+}
+
+#SOslogan
+{
+	font-style: italic;
+}
+
+@keyframes colorChange
+{
+	0%{background-color: #777989;}
+	50%{background-color: #3D5577;}
+	100%{background-color: #777989;}
+}
+
+
+#welcomeText h2:first-child
+{
+	font-size: 20px;
+}
+
+#welcomeText h2
+{
+	font-family: 'greatvibes-regular';
+	font-size: 16px;
+}
+
+#welcomeText
+{
+	margin-left: 20px;
+	line-height: 22px;
+	text-align: center;
+	padding: 0px 20px;
+}
+
+#glasses
+{
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+#dior
+{
+	background-image: url('../images/glasses-dior.jpg');
+	background-repeat: no-repeat;
+	box-shadow: 2px 2px 3px #3A3A3A;
+	height: 250px;
+	width: 250px;
+}
+
+#dior p
+{
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'greatvibes';
+	color: #777989;
+	opacity: 0;
+	padding: 100px 0px;
+}
+
+#dior p:hover
+{
+	opacity: 1;
+}
+
+#oakley
+{
+	margin-top: 10px;
+	background-image: url('../images/glasses-oakley.jpg');
+	box-shadow: 2px 2px 3px #3A3A3A;
+	height: 250px;
+	width: 250px;
+}
+
+#oakley p
+{
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'greatvibes';
+	color: #777989;
+	opacity: 0;
+	padding: 100px 0px;
+}
+
+#oakley p:hover
+{
+	opacity: 1;
+}
+
+#rayban
+{
+	height: 250px;
+	width: 250px;
+	margin-top: 10px;
+	background-image: url('../images/glasses-rayban.jpg');
+	box-shadow: 2px 2px 3px #3A3A3A;
+}
+
+#rayban p
+{
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'greatvibes';
+	color: #777989;
+	opacity: 0;
+	padding: 100px 0px;
+}
+
+#rayban p:hover
+{
+	opacity: 1;
+}
+
+
+/*FOOTER*/
+
+#mainFooter
+{
+	border-top: solid 1px #2D4668;
+	height: 110px;
+}
+
+#footerleft
+{
+	margin-top: 20px;
+}
+
+#socialMedia
+{
+	margin-top: 5px;
+	text-align: center;
+}
+
+#footerNav
+{
+	margin: 15px 0px;
+	text-align: center;
+}
+
+#footerNav ul li
+{
+	display: inline;
+}
+
+#footerNav ul li a
+{
+	text-decoration: none;
+	font-family: 'caviardreams', Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 1em;
+	font-weight: 300;
+	margin-top: 10px;
+	margin-left: 12px;
+	color: #000;
+}
+
+
+#footerNav ul li a:hover
+{
+	color: #3D3BB0;
+	margin-top: 8px;
+}
+
+#hours
+{
+	margin-bottom: 20px;
+}
+
+#hours h2
+{
+	text-align: center;
+	font-family: 'caviardreams', Helvetica, Arial, sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	margin-bottom: 8px;
+}
+
+#hours p
+{
+	font-size: 14px;
+	line-height: 20px;
+}
+
+/*ABOUT US*/
+
+#aboutBody
+{
+	margin: 20px 0px;
+}
+
+#divider
+{
+	margin: 27px 0px 27px 116px;
+}
+
+#groupPicture
+{
+	margin-left: 10px;
+}
+
+
+#aboutTitle
+{
+	font-family: 'greatvibes', "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 2em;
+	font-weight: bold;
+	margin: 10px 0px;
+	text-align: center;
+}
+
+#aboutText
+{
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+#aboutText p
+{
+	font-size: 1em;
+	line-height: 25px;
+}
+
+
+/*Contact*/
+
+#contactUs
+{
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+
+#information
+{
+	margin-bottom: 30px;
+	line-height: 30px;
+}
+
+#information h2
+{
+	font-family: 'greatvibes';
+	font-size: 2em;
+	text-align: center;
+}
+
+#information p
+{
+	font-size: 1.2em;
+}
+
+#contactHours
+{
+	border-bottom: #777989 solid thick;
+	margin-bottom: 10px;
+	padding: 10px 0px;
+}
+
+#contacthourstitle
+{
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+#contactMap{
+	margin-left: 0px;
+}
+
+#contactForm
+{
+	background-color: #77798B;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+#contactForm form input
+{
+	margin-top: 10px;
+}
+
+#submit{
+	background-color: #fff;
+	color: #77798B;
+	padding: 5px 0px;
+	border-radius: 2px;
+}
+
+#submit:hover{
+	font-weight: bold;
+	border-radius: 4px;
+}
+
+#disclaimer
+{
+	margin-top: 15px;
+}
+
+#contactForm form select
+{
+	margin: 10px 0px;
+}
+
+#question
+{
+	margin-top: 10px;
+}
+
+
+/*MEDIA QUERIES START HERE*/
+@media screen and (min-width: 40em){
+ #mainNav ul li a{
+	 font-size: 1.3em;
+ }
+}
+
+
+@media screen and (min-width: 50em){
+	#footerNav{
+		margin-top: 10px;
+	}
+
+	#hours{
+		margin-left: 15px;
+	}
+
+	#groupPicture
+	{
+		margin-top: 10px;
+	}
+
+	#contactMap {
+		margin-top: 20px;
+		padding: 0;
+		text-align: center;
+	}
+
+	#contactForm{
+		text-align: center;
+		width: 800px;
+		border-radius: 8px;
+	}
+
+	#reason{
+		margin-bottom: 10px;
+	}
+
+}
