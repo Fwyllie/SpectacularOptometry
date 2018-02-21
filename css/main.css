@@ -12,7 +12,6 @@ body
 	background-image: url('../images/pw_maze_white.png');
 }
 
-
 @font-face {
     font-family: 'caviardreams';
     src: url('../fonts/caviardreams-webfont.woff2') format('woff2'),
@@ -26,16 +25,10 @@ body
 	src: url('../fonts/greatvibes-regular-webfont.woff2') format('woff2'),
 		url('../fonts/greatvibes-regular-webfont.woff2') format('woff');
 }
-
-/*body
-{
-	background-image: url('../images/backgroundimage.jpg');
-}*/
-
 p
 {
 	font-family: 'caviardreams', Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	font-size: 15px;
+	font-size: 1em;
 }
 /*HEADER*/
 
@@ -106,7 +99,7 @@ p
 	animation-delay: 1s;
 	animation-iteration-count: infinite;
 	padding: 10px;
-
+	width: 100%;
 }
 
 #SOslogan
@@ -124,13 +117,13 @@ p
 
 #welcomeText h2:first-child
 {
-	font-size: 20px;
+	font-size: 2em;
 }
 
 #welcomeText h2
 {
 	font-family: 'greatvibes-regular';
-	font-size: 16px;
+	font-size: 1.5em;
 }
 
 #welcomeText
@@ -147,81 +140,25 @@ p
 	margin-bottom: 15px;
 }
 
-#dior
-{
-	background-image: url('../images/glasses-dior.jpg');
-	background-repeat: no-repeat;
-	box-shadow: 2px 2px 3px #3A3A3A;
-	height: 250px;
-	width: 250px;
-}
-
-#dior p
-{
+#dior, #oakley, #rayban{
 	text-align: center;
-	font-size: 50px;
-	font-weight: bold;
-	font-family: 'greatvibes';
-	color: #777989;
-	opacity: 0;
-	padding: 100px 0px;
-}
-
-#dior p:hover
-{
-	opacity: 1;
-}
-
-#oakley
-{
+	position: relative;
 	margin-top: 10px;
-	background-image: url('../images/glasses-oakley.jpg');
-	box-shadow: 2px 2px 3px #3A3A3A;
-	height: 250px;
-	width: 250px;
 }
-
-#oakley p
-{
-	text-align: center;
-	font-size: 50px;
-	font-weight: bold;
-	font-family: 'greatvibes';
-	color: #777989;
+#dior p, #oakley p, #rayban p {
+	position: absolute;
+	top: 40%;
+	left: 0;
+	right: 0;
 	opacity: 0;
-	padding: 100px 0px;
+	font-size: 1.4em;
+	font-family: impact;
+	font-weight: bolder;
+	color: #ccc;
 }
-
-#oakley p:hover
-{
-	opacity: 1;
+#dior:hover p, #oakley:hover p, #rayban:hover p{
+		opacity: 1;
 }
-
-#rayban
-{
-	height: 250px;
-	width: 250px;
-	margin-top: 10px;
-	background-image: url('../images/glasses-rayban.jpg');
-	box-shadow: 2px 2px 3px #3A3A3A;
-}
-
-#rayban p
-{
-	text-align: center;
-	font-size: 50px;
-	font-weight: bold;
-	font-family: 'greatvibes';
-	color: #777989;
-	opacity: 0;
-	padding: 100px 0px;
-}
-
-#rayban p:hover
-{
-	opacity: 1;
-}
-
 
 /*FOOTER*/
 
